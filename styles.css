@@ -1,0 +1,91 @@
+/* Page and text colors*/
+body {
+    background-color: #f8abab;
+    color: #720602;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+header {
+    background-color: #f8abab;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #805333;
+}
+h1 {
+    color: #720602;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+h2 {
+    color: #720602;
+    font-size: 24px;
+}
+h3 {
+    font-size: 19px;
+}
+p {
+    margin-bottom: 15px;
+}
+/* Links*/
+a {
+    color: #75401d;
+    text-decoration: underline;
+}
+a:hover {
+    color: #720602;
+    background-color: #df9292;
+}
+a:focus-visible {
+    outline: 2px solid #6e0f0c;
+    outline-offset: 3px;
+}
+nav a {
+    display: inline-block;
+    margin: 5px 10px;
+    font-weight: bold;
+}
+/* Page spacing */
+main {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+section {
+    background-color: #f8abab;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #fcc5c5;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #fcc5c5;
+}
+figure {
+    margin: 20px 0;
+}
+figcaption {
+    font-size: 14px;
+    color: #610502;
+}
+li {
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #f8abab;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+/* Classes used on the HTML pages */
+.highlight {
+    background-color: #f8a3a3;
+    padding: 10px;
+    border-left: 4px solid #720602;
+}
+.note {
+    color: #630401;
+    font-style: italic;
+}
