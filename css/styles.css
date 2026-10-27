@@ -61,7 +61,7 @@ nav a {
     margin: 20px auto;
     padding: 0 15px;
 }
-.card {
+.bakeinfo {
     background-color: #f8abab;
     padding: 20px;
     margin-bottom: 20px;
@@ -113,4 +113,24 @@ footer {
 /* Marks current page */
 nav a{aria-curent="page"] {
     border-bottom: 2px solid #720602;
+}
+
+/* Makes content more accessible on smaller screens */
+@media (max-width: 600px) {
+  header {
+    padding: 15px;
+  }
+  nav a {
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+  }
+  #main-content {
+    margin: 15px auto;
+    padding: 0 10px;
+  }
+  .bakeinfo {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
 }
