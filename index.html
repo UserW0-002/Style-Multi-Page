@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baking 101 | Home</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -17,15 +18,25 @@
         </nav>
     </header>
     <main id="mainContent">
-        <section class="card">
+        <section class="bakeinfo">
             <h2>Introduction to Baking</h2>
             <p>Baking is the process of cooking food using dry heat, usually inside an oven. This site will give a few tips and resources to help improve your baking skills.</p>
         </section>
-        <section class="card">
+        <section class="bakeinfo">
             <h2>Follow the Recipe</h2>
             <p class="highlight">Before trying to bake anything, read the whole recipe. Then gather your ingredients and pay attention to whether anything needs to soften or chill.</p>
             <p>Visit the <a href="topic.html">baking guide</a> for two useful skills: measuring flour and mixing batter.</p>
             <p>The <a href="resources.html">baking resources page</a> has more information to help when you have questions.</p>
+        </section>
+        <section class="bakeinfo">
+            <h2>Reflection</h2>
+            <ol>
+                <li>The biggest issue I noticed was the navigation links looking weird when the screen was narrow, like on a phone screen.</li>
+                <li>I used a max-width and automatic margins to keep the content centered. I also used padding and box-sizing to properly space things.</li>
+                <li>On a wide screen, the navigation links fit next to each other and the content is centered. On a more narrow phone screen the links stack vertically and the cards have less padding.</li>
+                <li>I learned that testing the different widths can crop content and make it look weird if it is not scaled properly. The meta viewport and content scaling can fix this.</li>
+                <li>I could improve my navigation and CSS a bit more. Like adding animations and making a mini window with info when you hover over content</li>
+            </ol>
         </section>
     </main>
     <footer>
